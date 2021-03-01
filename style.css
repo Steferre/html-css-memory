@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ADD8E6;
+}
+
+.game-title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    color: #ffffff; 
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.row {
+    padding: 10px;
+}
+
+.row.first {
+    padding-top: 20px;
+}
+
+.row.third {
+    padding-bottom: 20px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card {
+    width: 25%;
+    height: 150px;
+    float: left;
+    padding: 0 10px; 
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}

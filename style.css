@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+.wrapper {
+    width: 60%;
+    margin: auto;
     background-color: #ADD8E6;
+    box-shadow: 2px 2px #a8a7a7;
 }
 
 .game-title {
@@ -66,17 +69,22 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    object-position: top;
     border-radius: 10px;
+    background-color: #ffffff;
 }
 
 .photo .front {
     position: absolute;
-    background-color: #ffffff;
     display: none;
 }
 
 .photo:hover .front {
     display: inline;
+}
+
+.photo:hover .back {
+    display: none;
 }
 
 .photo:hover .card-name {
@@ -93,4 +101,8 @@ body {
     font-weight: bold;
     text-align: center;
     display: none; 
+}
+
+footer {
+    text-align: center;
 }

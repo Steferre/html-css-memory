@@ -79,6 +79,11 @@
     display: none;
 }
 
+.front.always_visible,
+.card-name.always_visible {
+    display: inline;
+}
+
 .photo:hover .front {
     display: inline;
 }
